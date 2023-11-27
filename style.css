@@ -6,6 +6,8 @@
   background:url("img/1.jpg") center/cover fixed no-repeat;
   display:flex;
   flex-wrap:wrap;
+  justify-content:center;
+  align-items:center;
 }
 .btn-left{
   position:absolute;
