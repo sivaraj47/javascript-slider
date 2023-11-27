@@ -1,6 +1,6 @@
 const container = document.querySelector('.container');
 const btns = document.querySelectorAll('.btn');
-const imgList = ["f","b","h","m"]
+const imgList = ["5","6","7","8"]
 
 let index=0;
 
