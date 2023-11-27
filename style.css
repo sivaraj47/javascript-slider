@@ -4,6 +4,8 @@
   background:#ddffcc;
   position:relative;
   background:url("img/1.jpg") center/cover fixed no-repeat;
+  display:flex;
+  flex-wrap:wrap;
 }
 .btn-left{
   position:absolute;
