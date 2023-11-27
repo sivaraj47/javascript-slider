@@ -8,10 +8,12 @@ btns.forEach((button)=>{
   button.addEventListener('click',()=>{
      if(button.classList.contains('btn-left')){
        index--;
+       
       if(index<0){
         index = imgList.length-1;
       }
-      container.style.background=`url("img/${imgList[index]}.jpeg") center/cover  no-repeat`      
+      container.style.background=`url("img/${imgList[index]}.jpeg") center/cover  no-repeat`  
+       setTimeout(container, 2000);
      }
     else{
        index++;
