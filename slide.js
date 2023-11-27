@@ -3,7 +3,9 @@ const btns = document.querySelectorAll('.btn');
 const imgList = ["5","6","7","8"]
 
 let index=0;
+showSlides();
 
+function showSlides() {
 btns.forEach((button)=>{
   button.addEventListener('click',()=>{
      if(button.classList.contains('btn-left')){
@@ -13,7 +15,7 @@ btns.forEach((button)=>{
         index = imgList.length-1;
       }
       container.style.background=`url("img/${imgList[index]}.jpeg") center/cover  no-repeat`  
-       setTimeout(container, 2000);
+       
      }
     else{
        index++;
@@ -24,4 +26,6 @@ btns.forEach((button)=>{
     }
   });
 });
+  setTimeout(showSlides, 2000);
+}
 
