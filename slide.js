@@ -11,14 +11,14 @@ btns.forEach((button)=>{
       if(index<0){
         index = imgList.length-1;
       }
-      container.style.background=`url("img/${imgList[index]}.jpg") center/cover fixed no-repeat`      
+      container.style.background=`url("img/${imgList[index]}.jpg") center/cover  no-repeat`      
      }
     else{
        index++;
       if(index===imgList.length){
         index = 0;
       }
-      container.style.background=`url("img/${imgList[index]}.jpg") center/cover fixed no-repeat`      
+      container.style.background=`url("img/${imgList[index]}.jpg") center/cover  no-repeat`      
     }
   });
 });
