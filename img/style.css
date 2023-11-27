@@ -3,7 +3,7 @@
   height:500px;
   background:#ddffcc;
   position:relative;
-  background:url('https://images.pexels.com/photos/1004584/pexels-photo-1004584.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1') center/cover fixed no-repeat;
+  background:url('img/1.jpg') center/cover fixed no-repeat;
 }
 .btn-left{
   position:absolute;
